@@ -30,10 +30,10 @@ function FooterForm() {
   const onClick = () => {
     if(validateEmail(value)) {
       setValue('');
-      alert("Адрес отправлен");
+      console.log("Адрес отправлен");
       return;
     }
-    alert("Не валидная почта");
+    console.log("Не валидная почта");
   }
 
   /**
