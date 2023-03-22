@@ -1,0 +1,26 @@
+.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+}
+
+.list__row {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.list__column {
+  flex-direction: column;
+}
+
+.list__size {
+  flex-basis: 440px;
+}
+
+.list__footer-docs {
+  width: 170px;
+}

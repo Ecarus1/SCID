@@ -1,0 +1,17 @@
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 80px;
+  box-sizing: border-box;
+  margin: 0 0 24px 0;
+  box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.07);
+}
+
+.header__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-basis: 680px;
+}

@@ -1,0 +1,35 @@
+.button {
+  width: 200px;
+  height: 49px;
+  
+  border: 1.5px solid #00BB78;
+  border-radius: 30px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+
+  color: #00BB78;
+  background: transparent;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.button:hover {
+  background: #00BB78;
+  color: #ffffff;
+}
+
+.button__pos {
+  display: block;
+  margin: 0 auto;
+}
+
+.button__main-services {
+  position: relative;
+  z-index: 300;
+  width: 142px;
+  margin-top: -32px;
+}

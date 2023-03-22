@@ -1,0 +1,19 @@
+.main-services {
+  margin: 0 80px 64px 80px;
+}
+
+.main-services__title {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 140%;
+  font-feature-settings: 'salt' on, 'liga' off;
+  color: #18191F;
+  text-transform: lowercase;
+  margin: 0 0 32px 0;
+}
+
+.main-services__title::first-letter {
+  text-transform: uppercase;
+}

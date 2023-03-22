@@ -1,0 +1,46 @@
+.footer-form__box {
+  height: 40px;
+  position: relative;
+  margin: 0 0 50px 0;
+}
+
+.footer-form__input {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  padding: 0 32px 0 12px;
+  box-sizing: border-box;
+  border: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.footer-form__input::placeholder, .footer-form__input {
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.footer-form__btn {
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translate(0, -50%);
+  margin: 0;
+  padding: 0;
+  width: 18px;
+  height: 18px;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  background-image: url('../../../assets/sendIcon.svg');
+}
+
+.footer-form__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  width: 128px;
+}

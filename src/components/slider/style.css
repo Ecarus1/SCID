@@ -1,0 +1,37 @@
+:root {
+  --swiper-pagination-bottom: 0;
+  --swiper-pagination-bullet-horizontal-gap: 9px;
+  --swiper-pagination-bullet-size: 10px;
+}
+
+.slider {
+  margin: 0 0 48px 0;
+}
+
+/* Это стили классов, которые добавляются библиотекой Swiper */
+.swiper-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 26px;
+}
+
+.swiper-pagination-bullet-active {
+  position: relative;
+  background: transparent;
+  width: 24px;
+  height: 24px;
+  border: 1px solid #00A76B;
+  transition: 0.4s;
+}
+
+.swiper-pagination-bullet-active::before {
+  content: "";
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  width: var(--swiper-pagination-bullet-size);
+  height: var(--swiper-pagination-bullet-size);
+  background: #00A76B;
+}
